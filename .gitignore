@@ -1,0 +1,14 @@
+# Binary deliverables are distributed in the complete ZIP.
+models/*.blend
+models/*.glb
+web/*.glb
+web/reference.jpg
+references/*.jpg
+references/*.jpeg
+previews/*.png
+
+# Local working files
+__pycache__/
+*.py[cod]
+.DS_Store
+.playwright-cli/

@@ -1,0 +1,76 @@
+{
+  "format_version": 1,
+  "hash": "SHA-256",
+  "assets": [
+    {
+      "path": "models/蓝发动漫少女·服装配色精修.blend",
+      "bytes": 178101075,
+      "sha256": "6e528b43f51a632691411933a56200f0515be4c1fd9884719add020725b2e49c"
+    },
+    {
+      "path": "models/蓝发动漫少女·服装配色精修版.glb",
+      "bytes": 91553868,
+      "sha256": "c9dec6a2e35baab66ef6ec249548a1f66f57dd22fd7a1a9cc5232878cac18ef0"
+    },
+    {
+      "path": "models/蓝发动漫少女·服装配色精修轻量版.blend",
+      "bytes": 36491310,
+      "sha256": "5b42cd5c6dbdb1272ff65b71582aa9a46be161ec1f46ec8e1983cffb75e59b8c"
+    },
+    {
+      "path": "models/蓝发动漫少女·服装配色精修轻量版.glb",
+      "bytes": 30126544,
+      "sha256": "1e7505754c5e9bae9d88ca6e03de867147c96c26800d9b9491786682cee22ee3"
+    },
+    {
+      "path": "references/原始胸像参考.jpg",
+      "bytes": 334568,
+      "sha256": "9591f4a955bbd325209c12869d29796c482819ececcca402c46709551fbde437"
+    },
+    {
+      "path": "references/服装配色参考.jpeg",
+      "bytes": 28265,
+      "sha256": "0061a9635ab099ee02def93c2a07f4b45261b20b81a65fd144bccba9ae9aec22"
+    },
+    {
+      "path": "previews/蓝发动漫少女·唇肤精修.png",
+      "bytes": 1314944,
+      "sha256": "b1f9e141f19be5a1a255f41a692db5ec15d33b8a5782db68d6652b493f046e2b"
+    },
+    {
+      "path": "previews/蓝发动漫少女·服装配色整体预览.png",
+      "bytes": 1485508,
+      "sha256": "09e23b15bd8f349a2324fd8f831948b1106ccd4ddf9779e03a95f5e54ae25799"
+    },
+    {
+      "path": "previews/蓝发动漫少女·服装配色精修.png",
+      "bytes": 1499133,
+      "sha256": "5a8702401fff5af80e56c1b8ed1933a90e414757ea535c7efa694c0787219fcc"
+    },
+    {
+      "path": "previews/蓝发动漫少女·眼部精修.png",
+      "bytes": 1744913,
+      "sha256": "04cc536237c9c062d66ff938543ad456d10898dd91835f74666f147275d43cc8"
+    },
+    {
+      "path": "previews/面部精修整体.png",
+      "bytes": 1483672,
+      "sha256": "d395ba818255ac508115e411857c5af3a6eb2900b9ce44f834c779650f363e5b"
+    },
+    {
+      "path": "web/model-hires.glb",
+      "bytes": 91553868,
+      "sha256": "c9dec6a2e35baab66ef6ec249548a1f66f57dd22fd7a1a9cc5232878cac18ef0"
+    },
+    {
+      "path": "web/model.glb",
+      "bytes": 30126544,
+      "sha256": "1e7505754c5e9bae9d88ca6e03de867147c96c26800d9b9491786682cee22ee3"
+    },
+    {
+      "path": "web/reference.jpg",
+      "bytes": 28265,
+      "sha256": "0061a9635ab099ee02def93c2a07f4b45261b20b81a65fd144bccba9ae9aec22"
+    }
+  ]
+}
