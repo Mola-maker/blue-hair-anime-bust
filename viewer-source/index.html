@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#eaf2f8">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Ccircle cx='32' cy='32' r='30' fill='%232f6698'/%3E%3Ctext x='32' y='43' text-anchor='middle' font-size='34' fill='white'%3E%E8%93%9D%3C/text%3E%3C/svg%3E">
+<title>蓝发少女 · 服装配色精修骨骼胸像</title>
+<style>
+:root{font-family:Inter,"PingFang SC","Microsoft YaHei",system-ui,sans-serif;color:#18314d;background:#eaf2f8;font-synthesis:none}
+*{box-sizing:border-box}html,body{margin:0;width:100%;height:100%;overflow:hidden}body{background:radial-gradient(circle at 50% 36%,#fbfdff 0,#edf5fa 46%,#dfeaf3 100%)}
+canvas{display:block;width:100%;height:100%;touch-action:none;outline:none}.ui{position:fixed;inset:0;pointer-events:none;z-index:2}
+.brand{position:absolute;left:38px;top:32px}.eyebrow{display:block;font-size:10px;font-weight:700;letter-spacing:.23em;color:#6c8cac;margin-bottom:10px}.brand h1{font-family:"Songti SC","Noto Serif CJK SC",serif;font-size:32px;font-weight:600;letter-spacing:.08em;margin:0 0 8px}.brand p{font-size:12px;letter-spacing:.16em;color:#6b8298;margin:0}
+.reference{position:absolute;right:32px;top:30px;width:126px;padding:8px 8px 10px;background:rgba(255,255,255,.68);border:1px solid rgba(105,140,173,.18);border-radius:15px;box-shadow:0 12px 40px rgba(49,83,113,.08);backdrop-filter:blur(16px)}.reference img{display:block;width:100%;aspect-ratio:209/333;object-fit:contain;border-radius:9px;background:#f3f7fb}.reference span{display:block;font-size:10px;letter-spacing:.14em;color:#6e879e;margin:8px 2px 0}
+.stats{position:absolute;left:38px;bottom:98px;font-size:11px;line-height:1.8;color:#6b8398;letter-spacing:.05em}.stats strong{display:block;color:#294765;font-size:12px;font-weight:600}
+.dock{pointer-events:auto;position:absolute;left:50%;bottom:28px;transform:translateX(-50%);display:flex;align-items:center;gap:5px;padding:7px;background:rgba(255,255,255,.78);border:1px solid rgba(108,143,174,.2);border-radius:18px;box-shadow:0 16px 50px rgba(54,86,113,.14);backdrop-filter:blur(18px);white-space:nowrap}
+button,.download{appearance:none;border:0;background:transparent;color:#48647e;border-radius:11px;padding:10px 13px;font:inherit;font-size:12px;cursor:pointer;text-decoration:none;transition:background .2s,color .2s,transform .2s}button:hover,.download:hover{background:#e9f1f8;color:#1d466e}button:active,.download:active{transform:translateY(1px)}button.active{background:#2f6698;color:#fff}.divider{width:1px;height:20px;background:#dbe5ed;margin:0 3px}.download.primary{background:#2f6698;color:#fff;padding-inline:16px}.download.primary:hover{background:#245781}.hint{position:absolute;right:34px;bottom:102px;text-align:right;font-size:10px;line-height:1.8;letter-spacing:.08em;color:#7a91a6}
+.loading{position:fixed;inset:0;z-index:10;display:grid;place-items:center;background:#edf4f9;transition:opacity .5s,visibility .5s}.loading.done{opacity:0;visibility:hidden}.loader{width:min(320px,76vw);text-align:center}.loader-mark{width:54px;height:54px;margin:0 auto 22px;border:1px solid #9fb9d0;border-radius:50%;display:grid;place-items:center;color:#4f7ca5;font-family:serif;font-size:22px;animation:breathe 1.8s ease-in-out infinite}.loader h2{font-size:15px;font-weight:500;letter-spacing:.12em;margin:0 0 16px}.loader p{font-size:11px;color:#718ba2;margin:10px 0}.track{height:2px;background:#d5e2ec;overflow:hidden}.track i{display:block;width:4%;height:100%;background:#4e7ea9;transition:width .25s}@keyframes breathe{50%{transform:scale(1.08);box-shadow:0 0 0 10px rgba(105,151,190,.07)}}
+button:focus-visible,.download:focus-visible{outline:2px solid #2f6698;outline-offset:2px}.error{color:#a34c54!important}.sr-only{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;border:0}
+@media(prefers-reduced-motion:reduce){*,*::before,*::after{animation:none!important;transition:none!important}}
+@media(max-width:760px){.brand{left:20px;top:22px}.brand h1{font-size:25px}.eyebrow{font-size:12px}.reference{display:none}.stats{left:20px;bottom:224px;font-size:12px}.hint{display:none}.dock{bottom:18px;max-width:calc(100vw - 24px);flex-wrap:wrap;justify-content:center;border-radius:16px;gap:2px;padding:6px}button,.download{padding:9px 10px;font-size:12px;min-width:44px;min-height:44px;display:inline-flex;align-items:center;justify-content:center}.divider{display:none}.download.primary{padding-inline:12px}}
+</style>
+  <script type="module" src="/src/main.js"></script>
+</head>
+<body>
+<div class="loading" id="loading"><div class="loader"><div class="loader-mark">蓝</div><h2>正在载入服装配色精修模型</h2><div class="track"><i id="progress"></i></div><p id="load-label">读取蒙皮、骨架与冷白蓝材质…</p></div></div>
+<div class="ui">
+<header class="brand"><span class="eyebrow">CHARACTER STUDY · 04</span><h1>蓝发少女</h1><p>冷白蓝服装 · 深蓝肩带 · 骨骼蒙皮</p></header>
+<aside class="reference"><img src="./reference.jpg" alt="服装与配色动漫参考图"><span>仅参考服装与配色</span></aside>
+<div class="stats" id="stats"><strong>模型准备中</strong>彩色贴图 · GLB</div>
+<div class="hint">拖动旋转 · 滚轮缩放<br>右键平移 · 触屏双指缩放</div>
+<nav class="dock" aria-label="三维模型控制">
+<button data-view="front">正面</button><button data-view="side">侧面</button><button data-view="back">背面</button><button data-view="face">面部</button>
+<span class="divider"></span><button id="rotate">自动旋转</button><button id="wire">线框</button><button id="bones">骨骼</button><button id="motion">测试动作</button><button id="reset">重置</button>
+<span class="divider"></span><a class="download" href="./model-hires.glb" download="蓝发动漫少女·服装配色精修版.glb">高精度</a><a class="download primary" href="./model.glb" download="蓝发动漫少女·服装配色精修轻量版.glb">下载模型</a>
+</nav>
+</div>
+</body>
+</html>
