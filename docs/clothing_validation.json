@@ -1,0 +1,38 @@
+{
+  "high": {
+    "bones": 18,
+    "bone_names": ["root", "spine", "chest", "neck", "head", "hair.back.01", "hair.back.02", "hair.back.03", "hair.front.01", "hair.front.02", "hair.l.01", "hair.l.02", "hair.l.03", "hair.r.01", "hair.r.02", "hair.r.03", "shoulder.L", "shoulder.R"],
+    "weights": {
+      "Detail_Eye_Catchlights": {"vertices": 1248, "min": 1.0, "max": 1.0},
+      "Detail_Eyelashes": {"vertices": 948, "min": 1.0, "max": 1.0},
+      "Detail_Lips": {"vertices": 492, "min": 1.0, "max": 1.0},
+      "Detail_Hair_Fibers": {"vertices": 7542, "min": 0.9999999552965164, "max": 1.0000000447034836},
+      "Detail_Clothing_Straps": {"vertices": 360, "min": 0.9999999701976776, "max": 1.0000000298023224}
+    },
+    "motion": {
+      "Detail_Eye_Catchlights": {"31": {"max": 0.016460404595035793, "mean": 0.01225449017872244}, "61": {"max": 0.016756387909857562, "mean": 0.011836791638392285}},
+      "Detail_Eyelashes": {"31": {"max": 0.020446929578512844, "mean": 0.013626803374644067}, "61": {"max": 0.022645776790136823, "mean": 0.011589728167312265}},
+      "Detail_Lips": {"31": {"max": 0.01972228615716867, "mean": 0.01919312506354986}, "61": {"max": 0.018585355800594682, "mean": 0.018002418190678132}},
+      "Detail_Hair_Fibers": {"31": {"max": 0.08360458094179363, "mean": 0.02207736483741616}, "61": {"max": 0.09449087539682491, "mean": 0.022503513060027274}},
+      "Detail_Clothing_Straps": {"31": {"max": 0.022081062746515282, "mean": 0.019442639202928116}, "61": {"max": 0.004725844954461494, "mean": 0.0039609488765995175}}
+    }
+  },
+  "low": {
+    "bones": 18,
+    "bone_names": ["root", "spine", "chest", "neck", "head", "hair.back.01", "hair.back.02", "hair.back.03", "hair.front.01", "hair.front.02", "hair.l.01", "hair.l.02", "hair.l.03", "hair.r.01", "hair.r.02", "hair.r.03", "shoulder.L", "shoulder.R"],
+    "weights": {
+      "Detail_Eye_Catchlights": {"vertices": 1248, "min": 1.0, "max": 1.0},
+      "Detail_Eyelashes": {"vertices": 938, "min": 1.0, "max": 1.0},
+      "Detail_Lips": {"vertices": 492, "min": 1.0, "max": 1.0},
+      "Detail_Hair_Fibers": {"vertices": 5770, "min": 0.9999999552965164, "max": 1.0000000447034836},
+      "Detail_Clothing_Straps": {"vertices": 378, "min": 0.9999999701976776, "max": 1.0000000298023224}
+    },
+    "motion": {
+      "Detail_Eye_Catchlights": {"31": {"max": 0.01646458945816729, "mean": 0.012254014995679584}, "61": {"max": 0.016757554474308566, "mean": 0.011835220911051233}},
+      "Detail_Eyelashes": {"31": {"max": 0.020446230381195654, "mean": 0.013714975491070284}, "61": {"max": 0.02264652206620649, "mean": 0.011662616495696457}},
+      "Detail_Lips": {"31": {"max": 0.019725892212989836, "mean": 0.019187598482391304}, "61": {"max": 0.018580406347005984, "mean": 0.017997412278842547}},
+      "Detail_Hair_Fibers": {"31": {"max": 0.08935285225290836, "mean": 0.022081693916022174}, "61": {"max": 0.07710665130344029, "mean": 0.020186886044131568}},
+      "Detail_Clothing_Straps": {"31": {"max": 0.02206487198867977, "mean": 0.01941153846630812}, "61": {"max": 0.004694227697714116, "mean": 0.003951228186588565}}
+    }
+  }
+}

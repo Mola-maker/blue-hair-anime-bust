@@ -1,0 +1,21 @@
+{
+  "desktop_viewport": [1440, 1000],
+  "mobile_viewport": [375, 812],
+  "model": {
+    "triangles": 365303,
+    "meshes": 19,
+    "skinnedMeshes": 19,
+    "bones": 18,
+    "animations": 1,
+    "format": "GLB",
+    "textured": true
+  },
+  "controls_tested": ["front", "side", "back", "face", "rotate", "wire", "bones", "motion", "reset"],
+  "downloads_http_200": ["model.glb", "model-hires.glb"],
+  "mobile_scroll_width": 375,
+  "mobile_minimum_target_css_pixels": [44, 44],
+  "mobile_stats_dock_spacing_css_pixels": 10,
+  "final_console_errors": 0,
+  "final_console_warnings": 0,
+  "preview_version": "8600c9d"
+}

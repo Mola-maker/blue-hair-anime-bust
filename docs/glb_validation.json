@@ -1,0 +1,24 @@
+[
+  {
+    "file": "蓝发动漫少女·服装配色精修版.glb",
+    "bytes": 91553868,
+    "triangles": 1956361,
+    "primitives": 19,
+    "joints": 18,
+    "animations": 1,
+    "animation_channels": 54,
+    "all_primitives_skinned": true,
+    "cloth_baseColorFactor": [0.94, 0.975, 1.0, 1.0]
+  },
+  {
+    "file": "蓝发动漫少女·服装配色精修轻量版.glb",
+    "bytes": 30126544,
+    "triangles": 365303,
+    "primitives": 19,
+    "joints": 18,
+    "animations": 1,
+    "animation_channels": 54,
+    "all_primitives_skinned": true,
+    "cloth_baseColorFactor": [0.94, 0.975, 1.0, 1.0]
+  }
+]
